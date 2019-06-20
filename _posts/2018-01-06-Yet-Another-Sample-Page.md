@@ -1,5 +1,5 @@
 ---
-title: Yet Another Sample Page
+title: 测试文章
 published: true
 ---
 
