@@ -1,6 +1,6 @@
 title: JonXia1337-博客
 description: ""
-author:
+author: 
   name: "JonXia1337"
   email: ""
   url: "https://jonxia.github.io"
@@ -28,5 +28,8 @@ plugins:
   - jekyll-sitemap
 
 # Custom variables
-owner : "SomeHacker"
+owner : "JonXia1337"
 year : "2019"
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页

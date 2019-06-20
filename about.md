@@ -2,5 +2,4 @@
 layout: page
 title: About
 ---
-
-Something about me.
+日久见人心
