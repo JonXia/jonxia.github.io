@@ -1,9 +1,9 @@
-title: JonXia1337-博客
-description: ""
+title: Hacker-Blog
+description: "A Jekyll Blog Theme For Hackers"
 author:
-  name: "JonXia1337"
-  email: ""
-  url: "https://jonxia.github.io"
+  name: "SomeHacker"
+  email: "someone@somewebsite.somedomain"
+  url: "https://ashishchaudhary.in/hacker-blog"
 
 baseurl: /
 
@@ -29,4 +29,4 @@ plugins:
 
 # Custom variables
 owner : "SomeHacker"
-year : "2019"
+year : "2018"
