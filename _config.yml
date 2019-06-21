@@ -20,7 +20,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-
+safe: false 
 future: true
 plugins:
   - jekyll-seo-tag

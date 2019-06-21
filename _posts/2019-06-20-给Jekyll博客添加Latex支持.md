@@ -1,7 +1,7 @@
 ---
 title: 给jekyll添加LaTex支持
 published: true
-tag: Jeklly
+categories: [jekyll]
 ---
 
 在_includes/header.html中添加如下代码
