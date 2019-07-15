@@ -7,7 +7,7 @@ title: Cartgory
   <h2>{{ category | first }}-{{ category | last | size }}篇</h2>
   <ul class="arc-list">
       {% for post in category.last %}
-          <li>{{ post.date | date:"%b %d %Y"}}<a href="{{ post.url }}">{{ post.title }}</a></li>
+          <li>{{ post.date | date:"%b %d %Y"}} - <a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
   </ul>
   {% endfor %}

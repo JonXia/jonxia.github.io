@@ -9,9 +9,9 @@ title: Archive
     {% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %}
     {% capture firstpostyear %}{{ site.posts[0].date | date: '%Y' }}{% endcapture %}
     {% if currentyear == firstpostyear %}
-        <h3>This year's posts</h3>
+        <h2>This year's posts</h2>
     {% else %}  
-        <h3>{{ firstpostyear }}</h3>
+        <h2>{{ firstpostyear }}</h2>
     {% endif %}
 
     {%for post in site.posts %}
@@ -22,7 +22,7 @@ title: Archive
         {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
         {% if year != nyear %}
           </ul>
-          <h3>{{ post.date | date: '%Y' }}</h3>
+          <h2>{{ post.date | date: '%Y' }}</h2>
           <ul>
         {% endif %}
       {% endunless %}
