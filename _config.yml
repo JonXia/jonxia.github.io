@@ -22,6 +22,7 @@ defaults:
       layout: "post"
 safe: false 
 future: true
+url: "https://jonxia.github.io"
 plugins:
   - jekyll-seo-tag
   - jekyll-paginate
@@ -30,3 +31,7 @@ plugins:
 # Custom variables
 owner : "JonXia1337"
 year : "2019"
+
+page: 
+  summary: google sitemap xml, Open Graph and plain old "meta"-tags. 
+  tags: [jekyll,blogging,facebook,metadata]
